@@ -36,8 +36,8 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
     }
 
     /* language-specific font */
-    body.lang-fa {
-      font-family: Tahoma, 'Source Sans Pro', Arial, sans-serif;
+    body.lang-fa body.lang-ar {
+      font-family: Vazirmatn, Tahoma, 'Source Sans Pro', Arial, sans-serif;
     }
 
     :-webkit-full-screen {
@@ -136,6 +136,18 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
   <link rel="preload" href="fonts/SourceSansPro/SourceSansPro-SemiboldItalic.woff?v=VERSION" as="font" crossorigin="anonymous"/>
   <link rel="preload" href="fonts/SourceSansPro/SourceSansPro-BoldItalic.woff?v=VERSION" as="font" crossorigin="anonymous"/>
   <link rel="preload" href="files/source-code-pro-latin-400-normal.woff2" as="font" crossorigin="anonymous"/>
+
+  <!--  Load following font only if language of the page is Fa or Ar  -->
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-Thin.woff2" as="font" crossorigin="anonymous"/>
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-ExtraLight.woff2" as="font" crossorigin="anonymous"/>
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-light.woff2" as="font" crossorigin="anonymous"/>
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-Medium.woff2" as="font" crossorigin="anonymous"/>
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-Regular.woff2" as="font" crossorigin="anonymous"/>
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-SemiBold.woff2" as="font" crossorigin="anonymous"/>
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-Bold.woff2" as="font" crossorigin="anonymous"/>
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-ExtraBold.woff2" as="font" crossorigin="anonymous"/>
+  <link rel="preload" href="fonts/Vazirmatn/Vazirmatn-NL-Black.woff2" as="font" crossorigin="anonymous"/>
+
 
   <style>
     @font-face {

@@ -214,3 +214,76 @@
        url('fonts/SourceSansPro/SourceSansPro-BoldItalic.woff?v=VERSION') format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+
+/* Farsi and Arabic */
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn NL;
+  src: url('fonts/Vazirmatn/Vazirmatn-NL-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

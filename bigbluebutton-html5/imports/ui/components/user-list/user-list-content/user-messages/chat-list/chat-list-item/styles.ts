@@ -19,14 +19,18 @@ import {
 } from '/imports/ui/stylesheets/styled-components/palette';
 
 interface UserAvatarProps {
-  color: string
-  moderator: boolean
-  avatar: string
-  emoji: string
+  color: string;
+  moderator: boolean;
+  avatar: string;
+  emoji?: string;
 }
 
 interface ChatNameMainProps {
-  active: boolean
+  active: boolean;
+}
+
+interface ChatListItemProps {
+  active: boolean;
 }
 
 const ChatListItemLink = styled.div`
@@ -41,7 +45,7 @@ const ChatIcon = styled.div`
   flex: 0 0 2.2rem;
 `;
 
-const UserAvatar = styled.div`
+const UserAvatar = styled.div<UserAvatarProps>`
   flex: 0 0 2.25rem;
   margin: 0px calc(0.5rem) 0px 0px;
   box-flex: 0;
@@ -150,7 +154,7 @@ const ChatNameMain = styled.span`
   `}
 `;
 
-const ChatListItem = styled.button`
+const ChatListItem = styled.button<ChatListItemProps>`
   display: flex;
   flex-flow: row;
   border-top-left-radius: 5px;
